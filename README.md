@@ -112,7 +112,7 @@ Key advantages of using GMX include:
 - Centralized communication: All email correspondence is stored in one place, simplifying tracking and retrieval.
 - Manual fallback option: In case of automation issues, the IT Service Desk can manually intervene using GMX’s email interface.
 - Seamless integration: GMX supports IMAP/SMTP protocols, allowing Make to monitor incoming emails and respond accordingly, creating a fully automated communication loop.
-This integration ensures applicants remain informed while reducing the workload on the Service Desk team.
+This integration ensures applicants remain informed while reducing the workload on the Service Desk team. 
 
 
 
