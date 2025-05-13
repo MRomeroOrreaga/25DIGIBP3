@@ -85,7 +85,36 @@ This challenges highlights the need for digital transformation, which our To-Be 
 
 # Benefeits 
 
+
 # Technologies 
+## Google Forms – Digital Request Submission
+
+To improve and digitize the form submission process, Google Forms is used as a user-friendly and standardized input method. Instead of sending forms via paper or email, applicants can fill out a structured digital form online. This form include validation rules and conditional logic to guide users through the process, ensuring all required information is provided correctly.
+This approach offers several benefits:
+	• Standardization of requests, reducing inconsistencies in submissions.
+	• Error reduction, as the form enforces mandatory fields and correct input formats.
+	• Ease of use, since external partners can access the form from any device via a simple link.
+	• Instant submission, which allows the collected data to be fed directly into downstream systems such as Make or Google Sheets for further processing and automation.
+
+## Camunda
+To orchestrate and manage the overall workflow, Camunda is used as a powerful process automation engine. Camunda handles each step of the request lifecycle, including reviews, approvals, and decision points. It maintains the state of each request in real time—whether it’s waiting for an approver, sent back for corrections, or ready for completion.
+Key benefits of using Camunda in this process include:
+	• Process transparency: Camunda provides a clear overview allowing stakeholders to track the status of every request at any stage.
+	• Custom workflows: It can model and execute complex processes, including conditional paths and loops for handling incomplete or incorrect submissions.
+	• Role-based access control: Only designated users can review and make decisions, ensuring security and compliance.
+	• Audit trails: Every action is logged, offering traceability, reporting, and process improvement.
+By implementing Camunda, Basel University can gain control, visibility, and flexibility over the entire approval and account creation process.
+
+## GMX – Email Handling (Applicant Notification & Replies)
+GMX serves as the communication hub for interacting with applicants throughout the process. It is used to send and receive structured email messages, including feedback, and  approvals. These email communications is automatically triggered by tools like Make and Camunda, ensuring timely and consistent updates to the applicant.
+Key advantages of using GMX include:
+	• Automated messaging: Important updates are sent without delay, minimizing the need for manual follow-ups.
+	• Centralized communication: All email correspondence is stored in one place, simplifying tracking and retrieval.
+	• Manual fallback option: In case of automation issues, the IT Service Desk can manually intervene using GMX’s email interface.
+	• Seamless integration: GMX supports IMAP/SMTP protocols, allowing Make to monitor incoming emails and respond accordingly, creating a fully automated communication loop.
+This integration ensures applicants remain informed while reducing the workload on the Service Desk team.
+
+
 
 # Conclusion 
 
